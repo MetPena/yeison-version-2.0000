@@ -13,8 +13,8 @@ namespace T_3
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-
+        {  
+                 
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
@@ -39,6 +39,7 @@ namespace T_3
                 {
                     float Fa = float.Parse(txtFahrenheit.Text);
                     float Ce = (Fa - 32) * 5.0f / 9.0f;
+                    float Cexi = (Fa - 32) * 5.0f / 9.0f;
                 }
             }
         }
